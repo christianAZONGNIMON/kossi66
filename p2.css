@@ -1,0 +1,20 @@
+body {
+    background: orange;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 20px;
+    color: #1f2937;
+
+    text-align: center;
+    color: #111827;
+    color: #1f2937;
+    margin-bottom: 40px;
+    font-size: 32px;
+}
+h3 {
+    color: #1d4ed8;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #e5e7eb;
+    padding-bottom: 5px;
+
+}

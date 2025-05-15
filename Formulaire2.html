@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Formulaire</title>
+	<style>
+		legend , label , div ,{
+			border-style: outset;
+			border-collapse:separate;
+		}
+
+		.fieldset{
+			border-style: solid;
+			width: 10%;
+			border-collapse:separate;
+		} 
+	</style>
+	<style>
+		legend{
+			margin-left:3px;
+			border-collapse:separate;
+			}
+			</style>
+</head>
+<body>
+	<fieldset>
+
+		<legend><strong>Etat Civil</strong></legend>
+		<div>
+			<span>
+				<label for="">Matricule:<label><input type="text">
+
+				<label for="">Nom:<label><input type="text">
+			</span>
+		</div>
+		<br/>
+		  <div>
+			<span>
+				<label for="">Prenoms:<label><input type="text">
+
+				     <label for="">Sexe:
+				     <select class="sexe" id="">
+				     	<option class="homme" id="">homme</option>
+				     	<option class="femme" id="">femme</option>
+				     </select>
+           
+        </select>
+				     </label>
+				
+			</span>
+		  </div>
+		<br/>
+		<div>
+			<span>
+			  <label for="">Date de naissance:<label><input type="text">
+			  <label for="">Age:<label><input type="id">
+			</span>
+		</div>
+		 </fieldset>
+		<fieldset>
+			<legend><strong> Mes diplomes</strong></legend>
+			<input type="checkbox"><label for="">CEP:</label>
+			<input type="checkbox"><label for="">BEPC:</label>
+			<input type="checkbox"><label for="">BAC:</label>
+		 </fieldset>
+	<fieldset>
+			<legend></strong>Expertise</strong></legend>
+			<input type="radio"name="Exp"><label for="">Expert en Informatique:<label>
+			<input type="radio"name="Exp"><label for="">Expert en Bavardage:</label>
+    </fieldset>
+   <fieldset>
+			<legend><strong>Les boutons</strong></legend>
+			<button> Envoyer</button> 
+			<button> Effacer</button>
+			<button> Quitter</button>
+   </fieldset>
+ </body> 
+  </html>
+
